@@ -7,7 +7,7 @@ export default function Home() {
     justifyContent: 'center',
     alignItems: 'center',
     height: '100vh',
-    fontFamily: "'Comic Sans MS', cursive, sans-serif",
+    fontFamily: "Comic Sans MS",
   };
   return (
       <div style={styleStuff}>
