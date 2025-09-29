@@ -18,7 +18,7 @@ export default function Landing() {
 
     function handleCheck() {
         setShowCheck(true)
-        setTimeout(() => setShowCheck(false), 1000);
+        setTimeout(() => setShowCheck(false), 1500);
     }
 
     return (
@@ -32,6 +32,11 @@ export default function Landing() {
                 fontFamily: "'Comic Sans MS', cursive, sans-serif"
             }} onClick={handleCheck}>Click to Check</button>
             <h1>{showCheck && "no"}</h1>
+            {showCheck &&
+                <img src="https://i.pinimg.com/736x/6d/3a/83/6d3a8347906bad1f5342d364a7ae26ea.jpg"
+                    alt="Damgom crying"
+                    width="100%"
+                ></img>}
         </div>
     )
 }
