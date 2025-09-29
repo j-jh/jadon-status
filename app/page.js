@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Landing from "@/Components/Landing";
 
 export default function Home() {
@@ -11,14 +10,8 @@ export default function Home() {
     fontFamily: "'Comic Sans MS', cursive, sans-serif",
   };
   return (
-    <>
-      <Head>
-        <title>{`Jadon's Status`}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <div style={styleStuff}>
         <Landing />
       </div>
-    </>
   );
 }
