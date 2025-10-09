@@ -8,6 +8,7 @@ export default function Home() {
     alignItems: 'center',
     height: '100vh',
     fontFamily: "Comic Sans MS",
+    textAlign: "center"
   };
   return (
       <div style={styleStuff}>

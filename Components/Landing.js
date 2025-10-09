@@ -43,7 +43,7 @@ export default function Landing() {
             <button style={{
                 fontSize: '2rem',
                 padding: '2rem',
-                fontFamily: "Comic Sans MS"
+                fontFamily: "Comic Sans MS",
             }} onClick={handleCheck}>Click to Check</button>
             <h1>{showCheck && "no"}</h1>
             {showCheck &&
